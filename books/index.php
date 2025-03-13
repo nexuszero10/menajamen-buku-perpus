@@ -24,7 +24,6 @@ $books = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="card shadow-lg p-4 bg-white rounded">
         <h2 class="mb-4 text-center text-primary"> Manajemen Buku Perpustakaan </h2>
         <div class="d-flex justify-content-between mb-3">
-            <a href="add.php" class="btn btn-success btn-lg"><i class="bi bi-plus-circle"></i> Tambah Buku</a>
             <select id="categoryFilter" class="form-select w-25 border-primary">
                 <option value="">Semua Kategori</option>
                 <?php foreach ($categories as $category): ?>
